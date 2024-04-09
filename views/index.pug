@@ -1,0 +1,48 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Página de Venta de Productos
+        link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css")
+    body
+        header
+            nav.navbar.navbar-expand-lg.navbar-light.bg-light
+                a.navbar-brand(href="#") Tienda CompuTec
+                button.navbar-toggler(type="button", data-toggle="collapse", data-target="#navbarSupportedContent", aria-controls="navbarSupportedContent", aria-expanded="false", aria-label="Toggle navigation")
+                    span.navbar-toggler-icon
+                div.collapse.navbar-collapse#navbarSupportedContent
+                    ul.navbar-nav.mr-auto
+                        li.nav-item.active
+                            a.nav-link(href="#") Inicio
+                        li.nav-item
+                            a.nav-link(href="#") Productos
+                        li.nav-item
+                            a.nav-link(href="#") Contacto
+        main.container.mt-4
+            h1.text-center.mb-4 Bienvenido a nuestra Tienda CompuTec
+            div.row
+                div.col-md-4
+                    .card
+                        img.card-img-top(src="/img/mouse.png", alt="Mouse")
+                        .card-body
+                            h5.card-title Mouse Logitech G Pro Lightspeed Wireless
+                            p.card-text DLogitech G colaboró con más de 50 jugadores profesionales para decidir la forma, el peso y la sensación perfectos para combinarlos con nuestras tecnologías LIGHTSPEED inalámbrica y de sensor HERO 25K. El resultado es que es uno de los ratones más populares en esports.
+                            a.btn.btn-primary(href="#") Comprar
+                div.col-md-4
+                    .card
+                        img.card-img-top(src="/img/teclado.png", alt="Teclado")
+                        .card-body
+                            h5.card-title Teclado Logitech Pro Keyboard K/DA
+                            p.card-text El teclado para juegos PRO probado en torneos, ahora con interruptores mecánicos avanzados GX Blue Clicky. Creado para ganar en colaboración con los mejores atletas de deportes electrónicos del mundo.
+                            a.btn.btn-primary(href="#") Comprar
+                div.col-md-4
+                    .card
+                        img.card-img-top(src="/img/audifono.png", alt="Audífono")
+                        .card-body
+                            h5.card-title Audifono Logitech G Pro
+                            p.card-text Las comunicaciones de calidad profesional y la precisión que necesitas para ganar gracias a los transductores PRO-G de 50 mm, el sonido envolvente de próxima generación y BLUE VO!CE. Todo con la libertad y la movilidad de la tecnología inalámbrica avanzada LIGHTSPEED.
+                            a.btn.btn-primary(href="#") Comprar
+        script(src="https://code.jquery.com/jquery-3.5.1.slim.min.js")
+        script(src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js")
+        script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js")
